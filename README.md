@@ -2,34 +2,34 @@
 
 本项目仅用于个人学习与参考，请勿转载分发、请勿用于商业用途。对于使用本项目造成的任何后果均与作者无关。如有侵权，请联系立即删除。
 
-## 简介
+## 1. 简介
 
 <!-- TOC -->
 * [IntelliJ IDEA 个人使用及配置](#intellij-idea-个人使用及配置)
-  * [简介](#简介)
-  * [激活](#激活)
-    * [正式激活](#正式激活)
-    * [利用开源项目激活](#利用开源项目激活)
-    * [非正式激活（推荐）](#非正式激活推荐)
-    * [非正式激活-支持功能列表](#非正式激活-支持功能列表)
-  * [配置同步](#配置同步)
-    * [JetBrains 账号配置同步（推荐）](#jetbrains-账号配置同步推荐)
-    * [GitHub 远程配置同步](#github-远程配置同步)
-  * [常用插件](#常用插件)
-  * [常用配置](#常用配置)
-    * [主题](#主题)
-    * [字体](#字体)
-    * [代码模板](#代码模板)
-    * [文件头注释](#文件头注释)
+  * [1. 简介](#1-简介)
+  * [2. 激活](#2-激活)
+    * [2.1 正式激活](#21-正式激活)
+    * [2.2 利用开源项目激活](#22-利用开源项目激活)
+    * [2.3 非正式激活（推荐）](#23-非正式激活推荐)
+    * [2.4 非正式激活-支持功能列表](#24-非正式激活-支持功能列表)
+  * [3. 配置同步](#3-配置同步)
+    * [3.1 JetBrains 账号配置同步（推荐）](#31-jetbrains-账号配置同步推荐)
+    * [3.2 GitHub 远程配置同步](#32-github-远程配置同步)
+  * [4. 常用插件](#4-常用插件)
+  * [5. 常用配置](#5-常用配置)
+    * [5.1 主题](#51-主题)
+    * [5.2 字体](#52-字体)
+    * [5.3 代码模板](#53-代码模板)
+    * [5.4 文件头注释](#54-文件头注释)
 <!-- TOC -->
 
-## 激活
+## 2. 激活
 
-### 正式激活
+### 2.1 正式激活
 
 - 购买正版激活码，直接购买即可，官网地址：[https://www.jetbrains.com/idea](https://www.jetbrains.com/idea)
 
-### 利用开源项目激活
+### 2.2 利用开源项目激活
 
 - 利用开源项目免费申请 JetBrains 激活码，官方申请地址：[https://www.jetbrains.com/shop/eform/opensource?product=ALL](https://www.jetbrains.com/shop/eform/opensource?product=ALL)
 
@@ -47,7 +47,7 @@
 
 > 或者直接参考这篇文章：[免费正版 IntelliJ IDEA license 详细指南](https://blog.csdn.net/zlt2000/article/details/115611788)
 
-### 非正式激活（推荐）
+### 2.3 非正式激活（推荐）
 
 - ~~2021.1.3版本，已不推荐（搭配试用30天到期自动续期插件永久免费食用），IDEA官方历史版本下载地址：[https://www.jetbrains.com/idea/download/other.html](https://www.jetbrains.com/idea/download/other.html)~~
 
@@ -81,20 +81,20 @@
 
 - 当然，有能力的还是推荐购买正版激活
 
-### 非正式激活-支持功能列表
+### 2.4 非正式激活-支持功能列表
 
 - IntelliJ IDEA 激活
 - 付费插件激活：_需要 linux.do 访问认证，请自行解决_。配合猴油脚本，手动添加 `MyJBLS_plugin.js` 脚本到猴油中，打开 [https://plugins.jetbrains.com](https://plugins.jetbrains.com/) 搜索你想要激活的插件, 点击 `Generate Code` 按钮就能得到该插件的激活码, 粘入到插件的 `Activation Code` 中即可
 - ~~GitHub Copilot 激活，cocopilot 公车已废弃~~
 - Augment 激活：_需要 linux.do 访问认证，请自行解决_。下载 Augment 插件，点击 Sign In 按钮【本地授权】，即可无限免费使用 Claude Sonnet 4 系列模型（代码开发和编程最强模型）
 
-## 配置同步
+## 3. 配置同步
 
-### JetBrains 账号配置同步（推荐）
+### 3.1 JetBrains 账号配置同步（推荐）
 
 登录账号即可，无需过多解释
 
-### GitHub 远程配置同步
+### 3.2 GitHub 远程配置同步
 
 使用方法：
 
@@ -102,7 +102,7 @@
 2. File | Settings Repository 指定远程仓库地址 (自己在 GitHub 或者 Gitee 上新建一个空仓库即可)
 3. Overwrite Local or Overwrite Remote
 
-## 常用插件
+## 4. 常用插件
 
 - 按需关闭自带插件。插件优化：[IDEA 关闭不必要的插件减少内存占用](https://blog.csdn.net/tutian2000/article/details/80074643)
 - 以下是推荐的插件：
@@ -137,28 +137,28 @@
 | 26   | Rainbow Variable                  | 方法内彩色变量匹配                                           |
 
 
-## 常用配置
+## 5. 常用配置
 
 看这两个就行：
 
 1. [IDEA的常见的设置和优化（功能）](https://blog.csdn.net/zeal9s/article/details/83544074)
 2. [2020年最新-IDEA最详细配置（配图文收藏版配置）](https://www.bilibili.com/read/cv5707434/)
 
-### 主题
+### 5.1 主题
 
 - 默认的 吸血鬼 主题，完美~
 
 ![image.png](https://images.gitee.com/uploads/images/2019/0118/000955_8a1a2c2a_945727.png)
 
-### 字体
+### 5.2 字体
 
 * 推荐 JetBrains Mono
-* IDEA应用字体 和 代码字体 设置：
+* JetBrains IDEA 应用字体和代码字体设置：
 
 ![IDEA应用字体](https://images.gitee.com/uploads/images/2019/0118/000955_06dda8fd_945727.png)
 ![代码字体](https://images.gitee.com/uploads/images/2019/0118/000955_dd80cfab_945727.png)
 
-### 代码模板
+### 5.3 代码模板
 
 类似 sysout：
 
@@ -170,7 +170,7 @@
 
 ![image.png](https://images.gitee.com/uploads/images/2019/0118/000956_1335a7b5_945727.png)
 
-### 文件头注释
+### 5.4 文件头注释
 
 * Editor -> File and Code Templates
 
