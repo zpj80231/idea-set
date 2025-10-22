@@ -67,10 +67,12 @@
      ~/Library/Application\ Support/JetBrains/IntelliJIdea2025.2/idea.vmoptions
      # 比如 pycharm 在 Mac 上的地址
      ~/Library/Application\ Support/JetBrains/IntelliJIdea2025.2/pycharm.vmoptions
-     
+     # 比如 idea 在 Windows11 上的地址
+     D:\IntelliJ IDEA 2025.2\bin\idea64.exe.vmoptions
+     # 注:注意文件名
      # 其他同理的。。。
      ```
-     在末尾填上（若没有 `.vmoptions` 文件则创建即可）：
+     在末尾填上（若没有 `.vmoptions` 文件则创建即可 若你为windows请注意上一步的文件名）：
      ```shell
      --add-opens=java.base/jdk.internal.org.objectweb.asm=ALL-UNNAMED
      --add-opens=java.base/jdk.internal.org.objectweb.asm.tree=ALL-UNNAMED
@@ -80,7 +82,7 @@
 
      **将其中的 `/Users/xxx/idea-set/ja-netfilter.jar` 替换为本仓库下 `ja-netfilter.jar` 文件的绝对路径。**
 
-  4. 打开IDEA，填入激活码（activation_code.txt 文件内容）
+  4. 若已经打开请先关闭，打开IDEA，填入激活码（activation_code.txt 文件内容）
 
 - 激活后只需定期更新本仓库即可，这样你能一直获取到最新功能。当然，有能力的还是推荐购买正版激活。
 
