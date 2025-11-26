@@ -7,11 +7,16 @@ body:
     attributes:
       value: |
         感谢您花时间填写此问题报告！在提交之前，请确保您已完成以下检查。
-  
+
+  - type: markdown
+    attributes:
+      value: |
+        ### 1. 问题检查清单
+
   - type: checkboxes
     id: checklist
     attributes:
-      label: 1. 问题检查清单
+      label: 必填检查项
       description: 在提交 issue 之前，请确认您已完成以下检查
       options:
         - label: 我已经搜索过 [现有的 Issues](https://github.com/zpj80231/idea-set/issues?q=is%3Aissue)，没有找到类似问题
@@ -24,7 +29,7 @@ body:
   - type: markdown
     attributes:
       value: |
-        ## 2. 环境信息
+        ### 2. 环境信息
   
   - type: input
     id: os-version
@@ -47,7 +52,7 @@ body:
   - type: markdown
     attributes:
       value: |
-        ## 3. 问题描述
+        ### 3. 问题描述
   
   - type: textarea
     id: problem-description
@@ -92,7 +97,7 @@ body:
   - type: markdown
     attributes:
       value: |
-        ## 4. 相关信息
+        ### 4. 相关信息
   
   - type: textarea
     id: config-file
@@ -119,7 +124,7 @@ body:
   - type: markdown
     attributes:
       value: |
-        ## 5. 补充信息
+        ### 5. 补充信息
   
   - type: textarea
     id: tried-solutions
