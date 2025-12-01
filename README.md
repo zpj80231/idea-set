@@ -58,13 +58,15 @@
 
     1. 克隆本仓库：`git clone https://github.com/zpj80231/idea-set.git`
     2. 进入仓库，复制 `ja-netfilter.jar` 文件的绝对路径
-    3. 修改 JetBrains 的 `.vmoptions` 文件 ，点击顶部菜单：`Help --> Edit Custom VM Options...`（或参考 [issue 13](https://github.com/zpj80231/idea-set/issues/13#issuecomment-3526721400)）
+    3. 打开并进入 IDEA（可以先试用），点击顶部菜单：`Help --> Edit Custom VM Options...`（参考 [issue 13](https://github.com/zpj80231/idea-set/issues/13#issuecomment-3526721400)）
        在末尾填上：
+       
        ```properties
+       # 将其中的 `/Users/xxx/idea-set/ja-netfilter.jar` 替换为绝对路径
        -javaagent:/Users/xxx/idea-set/ja-netfilter.jar
        ```
-       **将其中的 `/Users/xxx/idea-set/ja-netfilter.jar` 替换为本仓库下 `ja-netfilter.jar` 文件的绝对路径。**
-    4. 若已经打开请先关闭，打开 IDEA，填入激活码（activation_code.txt 文件内容）
+       
+    4. 重新打开 IDEA，点击顶部菜单：`Help --> Manage Subscriptions...`，填入激活码即可（activation_code.txt 文件内容）
 
 - 激活后只需定期更新本仓库即可，这样你能一直获取到最新功能。当然，有能力的还是推荐购买正版激活。
 
