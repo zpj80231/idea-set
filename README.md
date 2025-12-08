@@ -63,7 +63,8 @@
        
        ```properties
        # 将其中的 `/Users/xxx/idea-set/ja-netfilter.jar` 替换为绝对路径
-       # 路径一定要正确，更新 agent 配置后，一定要重启 idea 再输入激活码
+       # 路径一定要正确，更新 agent 配置后，一定要重启 idea 再输入激活码（之前有登录的退出登录重新激活）
+       # 退出并关掉 CodeWithMe、JetbrainsAI 等类似自家有远程交互的插件（这类插件可能有远程交互检测，导致频繁掉线或出现激活码无效）
        -javaagent:/Users/xxx/idea-set/ja-netfilter.jar
        ```
        
