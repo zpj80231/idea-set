@@ -26,7 +26,8 @@
     * [5.5 代码模板](#55-代码模板)
     * [5.6 文件头注释](#56-文件头注释)
     * [5.7 注释不顶格（不在行首）](#57-注释不顶格不在行首)
-    <!-- TOC -->
+    * [5.8 自定义后缀文件的语法高亮](#58-自定义后缀文件的语法高亮)
+<!-- TOC -->
 
 ## 2. 激活
 
@@ -58,14 +59,14 @@
 
     1. 克隆本仓库：`git clone https://github.com/zpj80231/idea-set.git`
     2. 进入仓库，复制 `ja-netfilter.jar` 文件的绝对路径
-    3. 打开并进入 IDEA，点击顶部菜单：`Help --> Edit Custom VM Options...`（参考 [issue 13](https://github.com/zpj80231/idea-set/issues/13#issuecomment-3526721400)）
+    3. 打开并进入 JetBrains IDE，点击顶部菜单：`Help --> Edit Custom VM Options...`（参考 [issue 13](https://github.com/zpj80231/idea-set/issues/13#issuecomment-3526721400)）
        在末尾填上：
        
        ```properties
        ### 注意事项 ###
-       # 1.请退出或禁用：IDEA 中登录的个人账号、CodeWithMe 等自家有远程交互能力的插件（这类插件可能存在遥测机制，导致掉线或激活无效）
+       # 1.请退出或禁用：IDE 中登录的个人账号、CodeWithMe 等自家有远程交互能力的插件（这类插件可能存在遥测机制，导致掉线或激活无效）
        # 2.请确保将 `/Users/xxx/idea-set/ja-netfilter.jar` 替换为实际的绝对路径
-       # 3.更新此配置和禁用相关插件后，务必重启 IDEA 再输入激活码
+       # 3.更新此配置和禁用相关插件后，务必重启 IDE 再输入激活码
        -javaagent:/Users/xxx/idea-set/ja-netfilter.jar
        ```
        
@@ -196,3 +197,9 @@
 
 ![image.png](https://img2020.cnblogs.com/blog/2608583/202111/2608583-20211121101224349-1524924883.png)
 ![image.png](https://img2020.cnblogs.com/blog/2608583/202111/2608583-20211121101320181-294946330.png)
+
+### 5.8 自定义后缀文件的语法高亮
+
+* Editor -> File Types
+
+![image.png](./.images/0C1C8BF1-3F24-4BF0-AE5A-A3CD74DA3D18.png)
