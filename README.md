@@ -63,10 +63,10 @@
        在末尾填上：
        
        ```properties
-       ### 注意事项 ###
-       # 1.请退出或禁用：IDE 中登录的个人账号、CodeWithMe 等自家有远程交互能力的插件（这类插件可能存在遥测机制，导致掉线或激活无效）
+       ### idea-set 注意事项 ###
+       # 1.请提前退出或禁用：IDE 中登录的个人账号、CodeWithMe 等自家有远程交互能力的插件（这类插件可能存在遥测机制，导致掉线或激活无效）
        # 2.请确保将 `/Users/xxx/idea-set/ja-netfilter.jar` 替换为实际的绝对路径
-       # 3.更新此配置和禁用相关插件后，务必重启 IDE 再输入激活码
+       # 3.更新此配置、禁用相关插件后，务必重启 IDE 再输入激活码
        -javaagent:/Users/xxx/idea-set/ja-netfilter.jar
        ```
        
