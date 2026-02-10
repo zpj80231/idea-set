@@ -144,15 +144,25 @@
 
 - Appearance & Behavior -> Appearance -> Theme
 
-![image.png](https://images.gitee.com/uploads/images/2019/0118/000955_8a1a2c2a_945727.png)
+![idea-theme.png](./.images/idea-theme.png)
 
 ### 5.2 字体
 
-* 直接设置字体大小：Editor -> Font
-* 使用鼠标滚轮调整字体大小：Editor -> General -> Change font size (Zoom) with Ctrl + Mouse Wheel
+* IDEA 应用字体：Appearance & Behavior -> Appearance
 
 ![IDEA应用字体](https://images.gitee.com/uploads/images/2019/0118/000955_06dda8fd_945727.png)
+
+* 代码字体：Editor -> Font
+
 ![代码字体](https://images.gitee.com/uploads/images/2019/0118/000955_dd80cfab_945727.png)
+
+* 控制台字体：Tools -> terminal
+
+![idea-control-font.png](./.images/idea-control-font.png)
+
+* 使用鼠标滚轮调整字体大小：Editor -> General -> Change font size (Zoom) with Ctrl + Mouse Wheel
+
+![idea-control-font.png](./.images/idea-mouse-wheel-font.png)
 
 ### 5.3 编码
 
@@ -202,4 +212,4 @@
 
 * Editor -> File Types
 
-![image.png](./.images/0C1C8BF1-3F24-4BF0-AE5A-A3CD74DA3D18.png)
+![image.png](.images/idea-file-types.png)
