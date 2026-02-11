@@ -23,7 +23,7 @@
     * [5.2 字体](#52-字体)
     * [5.3 编码](#53-编码)
     * [5.4 切换语言](#54-切换语言)
-    * [5.5 代码模板](#55-代码模板)
+    * [5.5 代码实时模板](#55-代码实时模板)
     * [5.6 文件头注释](#56-文件头注释)
     * [5.7 注释不顶格（不在行首）](#57-注释不顶格不在行首)
     * [5.8 自定义后缀文件的语法高亮](#58-自定义后缀文件的语法高亮)
@@ -144,39 +144,39 @@
 
 - Appearance & Behavior -> Appearance -> Theme
 
-![idea-theme.png](./.images/idea-theme.png)
+![idea-theme.png](.images/idea-theme.png)
 
 ### 5.2 字体
 
 * IDEA 应用字体：Appearance & Behavior -> Appearance
 
-![IDEA应用字体](https://images.gitee.com/uploads/images/2019/0118/000955_06dda8fd_945727.png)
+![IDEA应用字体](.images/idea-sidebar-font.png)
 
 * 代码字体：Editor -> Font
 
-![代码字体](https://images.gitee.com/uploads/images/2019/0118/000955_dd80cfab_945727.png)
+![代码字体](.images/idea-code-font.png)
 
 * 控制台字体：Tools -> terminal
 
-![idea-control-font.png](./.images/idea-control-font.png)
+![idea-control-font.png](.images/idea-control-font.png)
 
 * 使用鼠标滚轮调整字体大小：Editor -> General -> Change font size (Zoom) with Ctrl + Mouse Wheel
 
-![idea-control-font.png](./.images/idea-mouse-wheel-font.png)
+![idea-control-font.png](.images/idea-mouse-wheel-font.png)
 
 ### 5.3 编码
 
 * Editor -> File encodings
 
-![IDEA编码设置](https://ucc.alicdn.com/pic/developer-ecology/vjpue72jdvvb2_20a1568e41754f01bfaced211af49527.png?x-oss-process=image%2Fresize%2Cw_1400%2Cm_lfit%2Fformat%2Cwebp)
+![IDEA编码设置](.images/idea-file-encodings.png)
 
 ### 5.4 切换语言
 
 * Appearance & Behavior -> System Settings -> Language and Region
 
-![IDEA语言设置](https://img2024.cnblogs.com/blog/1714436/202410/1714436-20241011113851303-217888438.png)
+![IDEA语言设置](.images/idea-language.png)
 
-### 5.5 代码模板
+### 5.5 代码实时模板
 
 类似 sysout：
 
@@ -185,7 +185,7 @@
 
 相关配置见：[IDEA代码模板](https://blog.csdn.net/Yinyaowei/article/details/103836510)
 
-![image.png](https://images.gitee.com/uploads/images/2019/0118/000956_1335a7b5_945727.png)
+![image.png](.images/idea-live-templates.png)
 
 ### 5.6 文件头注释
 
@@ -199,14 +199,14 @@
  */
 ```
 
-![image.png](https://images.gitee.com/uploads/images/2019/0118/000957_0a1a36f9_945727.png)
+![image.png](.images/idea-file-templates.png)
 
 ### 5.7 注释不顶格（不在行首）
 
 * Editor -> Code Style -> Java -> Code Generation
 
-![image.png](https://img2020.cnblogs.com/blog/2608583/202111/2608583-20211121101224349-1524924883.png)
-![image.png](https://img2020.cnblogs.com/blog/2608583/202111/2608583-20211121101320181-294946330.png)
+![image.png](.images/idea-code-style-java.png)
+![image.png](.images/idea-code-style-xml.png)
 
 ### 5.8 自定义后缀文件的语法高亮
 
